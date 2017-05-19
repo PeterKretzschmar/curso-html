@@ -1,0 +1,16 @@
+@import "button.css"
+@import "nav.css"
+@import "title.css"
+@import "text.css"
+@import "form.css"
+
+@font-face{
+	/*
+
+	cria fonte personalizada
+	
+	font-family: myfont;
+	src: url(myfont.woff);
+
+	*/
+}

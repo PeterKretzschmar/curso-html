@@ -1,0 +1,9 @@
+.icon{
+	background-image: url("../images/indice.png");
+	background-size: 150px auto;
+	background-repeat: no-repeat;
+	background-position: -1px -1px;
+	height: 28px;
+	width: 28px;
+	border: 1px solid red;
+}

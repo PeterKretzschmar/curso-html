@@ -1,0 +1,264 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	font-family: sans-serif;
+	margin: 0px;
+}
+
+header{
+	background-color: darkblue;
+	height: 65px;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-weight: normal;
+}
+
+ul{
+	list-style: none;
+	padding: 0px;
+}
+
+ul a{
+	color: black;
+	display: block;
+	text-decoration: none;
+	border-bottom: 1px solid rgba(0,0,0,0.5);
+	padding: .4rem 1rem;
+}
+
+ul a:hover{
+	background-color: rgba(0,0,0,0.5);
+}
+
+ul li:hover > ul{
+	display: block;
+}
+
+nav{
+	float: right;
+}
+
+nav li {
+    position: relative;
+}
+
+/*nivel 1 do navigator*/
+nav > ul > li{
+	display: inline-block;
+}
+
+nav > ul > li > a{
+	color: #FFF;
+	border:none;
+}
+/*-------------------*/
+
+/*A partir do nivel 2 do navigator*/
+nav ul ul{
+	background-color: grey;
+	position: absolute;
+	display: none;
+}
+/*-------------------*/
+
+/*A partir do nivel 3 do navigator*/
+nav ul ul ul{
+	top: 0;
+	left: 100%;
+}
+/*-------------------*/
+
+body > ul{
+	background-color: grey;
+	width: 28%;
+	margin-left: 2%;
+	float: left;
+	position: absolute;
+	height: 100%;
+	/*display: inline-block;*/
+}
+
+body > section{
+	width: 70%;
+	margin-left: 30%;
+	float: left;
+	padding: 0px 20px;
+}
+
+section ul{
+	background-color: grey;
+}
+
+form{
+	border: 1px solid grey;
+	padding: 20px;
+}
+
+form label{
+	width: 50%;
+	float: left;
+	padding: 0 10px; 
+}
+
+form button{
+	margin: 5px 0px 0px 10px;
+}
+
+form label input, form label textarea {
+    width: 100%;
+}
+
+form label:nth-child(5) {
+    width: 100%;
+}
+
+/**{
+    box-sizing: border-box;
+}
+
+body {
+	font-family: sans-serif;
+	margin: 0px;
+}
+
+header {
+	background: darkblue;
+	height: 62px;
+}
+
+ul {
+	list-style: none;
+	padding: 0px;
+}
+
+ul a {
+	text-decoration: none;
+	color: black;
+	display: block;
+	border-bottom: 1px solid rgba(0,0,0,0.5);
+	box-sizing: border-box;
+	padding: 0.5rem 1rem;
+}
+
+nav ul li ul {
+	background-color: grey;
+}
+
+nav > ul > li > a {
+	border: none;
+}
+
+nav > ul a {
+	color: #FFF;
+}
+
+ul a:hover{
+	background-color: rgba(0,0,0,0.5);
+}
+
+nav > ul ul{
+	position: absolute;
+}
+
+nav > ul ul ul{
+	position: absolute;
+	top: 0;
+	left: -100%;
+}
+
+nav li{
+	position: relative;
+}
+
+nav > ul > li > a{
+	color: white;
+	border:none;
+}
+
+nav ul ul a {
+    min-width: 160px;
+}
+
+nav ul li ul{
+	background-color: grey;
+	box-sizing: border-box;
+	border: 5px;
+	border:10px;
+	display: none;
+}
+
+nav > ul > li{
+	display: inline-block;
+	margin-left: 5px;
+}
+
+nav{
+	float: right;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-weight: normal;
+}
+
+label input, label textarea{
+	display: block;
+}
+
+ul li:hover>ul{
+	display: block;
+}
+
+ul input:checked + ul{
+	display: block;
+}
+
+nav ul input[type="checkbox"]{
+	display: none;
+}
+
+body > ul{
+	background-color: grey;
+	width: 20%;
+	margin-left: 2%;
+	float: left;
+	position: absolute;
+	height: 100%;
+}
+
+section{
+	right: 0;
+	float: left;
+	width: 70%;
+}
+
+section ul{
+	background-color: grey;
+	margin: 5px;
+}
+
+form {
+    border: 1px solid grey;
+    padding: 20px;
+}
+
+form label{
+	float: left;
+	width: 50%;
+	padding-right: 10px
+	padding: 0px 1px;
+}
+
+form label input, form label textarea{
+	width: 100%;
+}
+
+form label:nth-child(5){
+	width: 100%;
+}
+
+section >ul li:nth-child(odd){
+	background-color: green;
+}*/
